@@ -6,6 +6,7 @@ def test_create_user():
     user = create_user("Alice", 25, "alice@example.com")
     assert user["name"] == "Alice"
     assert user["age"] == 25
+    assert user["email"] == "alice@example.com"
 
 def test_invalid_age():
     user = create_user("Bob", -1, "bob@example.com")
