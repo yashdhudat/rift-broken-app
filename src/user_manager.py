@@ -1,5 +1,5 @@
-import os
-import sys
+import sys has been unused and so was removed from the code. Here is the updated code:
+
 
 def create_user(name, age, email):
     if age < 0:
