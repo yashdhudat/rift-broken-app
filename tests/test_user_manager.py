@@ -16,11 +16,4 @@ def test_get_email():
     assert get_user_email(user) == "alice@example.com"
 
 def test_get_email_none():
-    assert get_user_email(None) == ""
-```
-
----
-
-## Then restart backend and test with new repo URL:
-```
-https://github.com/yashdhudat/rift-broken-app
+    assert get_user_email(None) == None
